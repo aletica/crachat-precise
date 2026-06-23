@@ -159,8 +159,8 @@ function drawGame() {
   // пуля
   if (shooting) {
     noStroke();
-    fill(255, 100, 50);
-    circle(bulletX, bulletY, 8);
+    fill(255, 180, 0);
+    circle(bulletX, bulletY, 10);
   }
   
   // хулиган
